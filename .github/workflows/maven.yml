@@ -41,14 +41,15 @@ jobs:
       uses: sonatype/actions/evaluate@v1
       with:
           # IMPORTANT: Replace with your Sonatype Lifecycle server URL
-          iq-server-url: https://cse-iq.sonatypedev.com
+          iq-server-url: https://cs1.sonatype.app
           # IMPORTANT: These secrets must be created in your repository settings
-          username: KKh3yzg8
-          password: O4ibuEKKSN8twtjsbZKG49R0NRMTsOpzE1PYY4mWN2vK
+          username: TeMceWZ9
+          password: DyRxmrhBu6ww0t9aD4zAD432K4vw5mrTWvb7wpw5U15r
+          organization-id: Blockinator
           # IMPORTANT: Replace with your application ID in Sonatype Lifecycle
           application-id: JavaTest__2janderson2
           # Scans the pom.xml file for dependencies.
-          scan-targets: src/main/java/*
+          scan-targets: pom.xml
           # Add stage
           stage: build
 
