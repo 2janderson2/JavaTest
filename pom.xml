@@ -54,19 +54,6 @@
           </archive>
         </configuration>
       </plugin>
-<!--       <plugin>
-      <!-- Index goal generates the target/sonatype-clm/module.xml file during the package phase -->
-<!--         <groupId>com.sonatype.clm</groupId>
-        <artifactId>clm-maven-plugin</artifactId>
-        <version>2.51.1-01</version>
-        <executions>
-          <execution>
-            <goals>
-              <goal>index</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin> --> 
     </plugins>
   </build>
   
