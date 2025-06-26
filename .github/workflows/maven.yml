@@ -41,7 +41,7 @@ jobs:
       uses: sonatype/actions/evaluate@v1
       with:
           # IMPORTANT: Replace with your Sonatype Lifecycle server URL
-          iq-server-url: https://cse-iq.sonatypedev.com/
+          iq-server-url: https://cse-iq.sonatypedev.com
           # IMPORTANT: These secrets must be created in your repository settings
           username: KKh3yzg8
           password: O4ibuEKKSN8twtjsbZKG49R0NRMTsOpzE1PYY4mWN2vK
@@ -49,6 +49,8 @@ jobs:
           application-id: JavaTest__2janderson2
           # Scans the pom.xml file for dependencies.
           scan-targets: pom.xml
+          # Add stage
+          stage: build
 
       # Step 5 (Optional): Print the results of the scan for debugging.
     - name: Log evaluation output
