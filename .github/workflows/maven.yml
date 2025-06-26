@@ -48,7 +48,7 @@ jobs:
           # IMPORTANT: Replace with your application ID in Sonatype Lifecycle
           application-id: JavaTest__2janderson2
           # Scans the pom.xml file for dependencies.
-          scan-targets: pom.xml
+          scan-targets: src/main/java/*
           # Add stage
           stage: build
 
