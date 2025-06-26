@@ -46,7 +46,7 @@ jobs:
           username: TeMceWZ9
           password: DyRxmrhBu6ww0t9aD4zAD432K4vw5mrTWvb7wpw5U15r
           # IMPORTANT: Replace with your application ID in Sonatype Lifecycle
-          application-id: JavaTest
+          application-id: WebGoat
           # Scans the pom.xml file for dependencies.
           scan-targets: pom.xml
           # Add stage
