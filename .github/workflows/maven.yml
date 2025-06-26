@@ -45,13 +45,12 @@ jobs:
           # IMPORTANT: These secrets must be created in your repository settings
           username: TeMceWZ9
           password: DyRxmrhBu6ww0t9aD4zAD432K4vw5mrTWvb7wpw5U15r
-          organization-id: Blockinator
           # IMPORTANT: Replace with your application ID in Sonatype Lifecycle
-          application-id: JavaTest__2janderson2
+          application-id: JavaTest
           # Scans the pom.xml file for dependencies.
           scan-targets: pom.xml
           # Add stage
-          stage: build
+          stage: release
 
       # Step 5 (Optional): Print the results of the scan for debugging.
     - name: Log evaluation output
