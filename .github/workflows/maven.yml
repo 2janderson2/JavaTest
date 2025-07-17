@@ -41,10 +41,10 @@ jobs:
       uses: sonatype/actions/evaluate@v1
       with:
           # IMPORTANT: Replace with your Sonatype Lifecycle server URL
-          iq-server-url: https://cs1.sonatype.app/platform
+          iq-server-url: https://cse-iq.sonatypedev.com
           # IMPORTANT: These secrets must be created in your repository settings
-          username: TeMceWZ9
-          password: DyRxmrhBu6ww0t9aD4zAD432K4vw5mrTWvb7wpw5U15r
+          username: KKh3yzg8
+          password: O4ibuEKKSN8twtjsbZKG49R0NRMTsOpzE1PYY4mWN2vK
           # IMPORTANT: Replace with your application ID in Sonatype Lifecycle
           application-id: WebGoat
           # Scans the pom.xml file for dependencies.
