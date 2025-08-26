@@ -52,12 +52,12 @@ jobs:
       uses: sonatype/actions/evaluate@v1
       with:
           # IMPORTANT: Replace with your Sonatype Lifecycle server URL
-          iq-server-url: https://6b9cba9ad517.ngrok-free.app/
+          iq-server-url: https://4853de3cbc6b.ngrok-free.app
           # IMPORTANT: These secrets must be created in your repository settings
           username: admin
           password: admin1234
           # IMPORTANT: Replace with your application ID in Sonatype Lifecycle
-          application-id: testjava
+          application-id: javatest
           # Scans the pom.xml file for dependencies.
           scan-targets: pom.xml
           # Add stage
