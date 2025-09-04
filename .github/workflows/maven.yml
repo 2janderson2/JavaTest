@@ -64,7 +64,7 @@ jobs:
           stage: build
           # Create Sarif File
           sarif-file: results.sarif
-          # upload sarif file to github code scanning
+          # upload sarif file to github code scannings
           upload-sarif-file: true
 
       # Step 5 (Optional): Print the results of the scan for debugging.
