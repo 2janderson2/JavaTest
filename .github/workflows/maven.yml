@@ -52,16 +52,20 @@ jobs:
       uses: sonatype/actions/evaluate@v1
       with:
           # IMPORTANT: Replace with your Sonatype Lifecycle server URL
-          iq-server-url: https://4853de3cbc6b.ngrok-free.app
+          iq-server-url: https://80be21bfc951.ngrok-free.app
           # IMPORTANT: These secrets must be created in your repository settings
           username: admin
           password: admin1234
           # IMPORTANT: Replace with your application ID in Sonatype Lifecycle
-          application-id: javatest
+          application-id: GHASCM
           # Scans the pom.xml file for dependencies.
           scan-targets: pom.xml
           # Add stage
-          stage: release
+          stage: build
+          # Create Sarif File
+          sarif-file: results.sarif
+          # upload sarif file to github code scanning
+          upload-sarif-file: true
 
       # Step 5 (Optional): Print the results of the scan for debugging.
     - name: Log evaluation output
